@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+RewriteRule ^movies$ movies_index.php [L]
+RewriteRule ^movies/(.*)$ movies_show.php?id=$1 [L]
+
+RewriteRule ^actors$ actors_index.php [L]
+RewriteRule ^actors/(.*)$ actors_show.php?id=$1 [L]

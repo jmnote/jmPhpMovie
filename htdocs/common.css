@@ -1,0 +1,39 @@
+.hero {
+	background: url('http://ssproxy.ucloudbiz.olleh.com/v1/AUTH_87aefdeb-2870-4bfe-bafd-65915c4e1ada/movie/interstellar-hero.jpg');
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.hero h2 {
+	font-size: 35px;
+}
+
+.movie-show .actor-show .actor {
+	width: 100%;
+	max-width: 220px;
+}
+
+.movie { height: 450px; }
+.actor { height: 320px; }
+.movie, .actor {
+	width: calc(25% - 10px);
+	display: block;
+	float: left;
+	margin: 0 10px 80px 0;
+	margin-bottom: 80px;
+	width: 184px;
+}
+
+.movie img {
+	width: 184px;
+	height: 270px;
+}
+.actor img {
+	width: 184px;
+}
+.movie h3 {
+	font-size: 16px;
+	font-weight: bold;
+}

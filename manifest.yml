@@ -1,0 +1,9 @@
+---
+applications:
+- name: jmPhpMovie
+  memory: 128M 
+  instances: 1
+  host: jm-php-movie
+  domain: devpack.co.kr
+  path: .
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
